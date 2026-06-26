@@ -30,7 +30,7 @@
 
  `Пример резервного копирования:`
  ```
- pg_dump -h localhost -p 5432 -U postgres -F c -b -v -f "/home/user/backup_DB/my_db.dump" my_database
+ pg_dump -h localhost -p 5432 -U postgres -F c -b -f "/home/user/backup_DB/my_db.dump" my_database
  ```
 
 `Пример восстановления базы данных:`
